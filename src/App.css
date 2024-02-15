@@ -1,0 +1,10 @@
+
+.App{
+    background-color: #f4f3ee;
+}
+
+hr {
+    width: 50%; /* Larghezza della linea di divisione */
+    border: 1px solid #ccc; /* Colore e stile del bordo della linea di divisione */
+    margin: 20px auto; /* Margine superiore e inferiore 20px, e margin:auto per centrare orizzontalmente */
+  }

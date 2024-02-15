@@ -1,0 +1,38 @@
+/* Stili per il footer */
+footer {
+    margin-top: 50px;
+    background-color: #494041;
+    color:  #f3e5da;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 2px;
+  }
+  
+  footer div {
+    margin-bottom: 15px;
+  }
+  
+  /* Stile per i link nel footer */
+  footer a {
+    color:  #f3e5da;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  .copyright{
+    margin-top: 50px;
+    text-align: right;
+    font-size: 14px;
+    
+  }
+
+  .powered{
+    font-size: 15px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  

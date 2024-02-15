@@ -1,0 +1,103 @@
+.immagine-profilo{
+    width: 400px;
+    height: 400px;
+    margin-right: 120px;
+    margin-top: 15px;
+    align-self: flex-start;
+    border-radius: 50%;
+    background-image: url('./../../../public/gppsy.jpg');
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+
+}
+
+h2{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #C6A590;
+    letter-spacing: 2px;
+}
+
+.sez-chi-sono{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.presentazione{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  line-height: 1.7;
+  letter-spacing: 10px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.descrizione{
+    width: 50%;
+    align-self: center;
+    letter-spacing: 7px;
+}
+
+.metodo{
+  font-weight: 100;
+}
+
+
+.scrivimi {
+    background-color: #7b6f67;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    width: 25%;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+  
+  .scrivimi:hover {
+    background-color: #f3e5da; 
+    border: 1.3px solid #463f3a;
+  }
+  .scrivimi:hover > .bottone-contatti-about {
+    color: #463f3a;
+    letter-spacing: 3.7px;
+}
+
+.bottone-contatti-about:hover{
+  color: #463f3a;
+}
+
+
+@media (max-width: 768px) {
+    /* Adatta le dimensioni dell'immagine per schermi più piccoli */
+    .immagine-profilo {
+      width: 150px; /* Occupa tutta la larghezza del contenitore */
+      height: 150px; /* Adatta l'altezza proporzionalmente alla larghezza */
+      border-radius:100%;
+      margin-right: 15px;
+      align-self: center;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .descrizione{
+        width: 90%;
+
+    }
+
+    .presentazione{
+        flex-direction: column;
+        align-items: center;
+       
+    }
+  }

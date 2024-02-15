@@ -1,0 +1,129 @@
+/* Stili per il contenitore del menu */
+.menu{
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    padding: 0; /* Rimuovi il padding predefinito */
+    margin: 0; /* Rimuovi il margin predefinito */
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform:capitalize;
+
+}
+  
+.menu li{
+    margin-right: 20px;
+}
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #463f3a;
+    color: #f4f3ee;
+    padding: 20px;
+  }
+  
+  /* Stili per il pulsante del menu */
+  .menu-icon {
+    margin-top: 5px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    display: none;
+    padding: 5px;
+  }
+
+  .close{
+    display: none;
+    cursor: pointer;
+  }
+
+  /* Stile normale del link */
+a {
+  text-decoration: none; /* Rimuove il sottolineato */
+  color: #f4f3ee; /* Colore normale */
+  transition: color 0.3s; /* Transizione del colore durante il passaggio del mouse */
+}
+
+/* Stile al passaggio del mouse */
+a:hover {
+  color: #e0afa0 /* Colore al passaggio del mouse */
+}
+
+/* Stile al clic */
+a:active {
+  color: #ffffff; /* Colore al clic (puoi personalizzare questo colore) */
+}
+
+
+
+  
+  
+  /* Stili per la visibilità del menu quando è aperto */
+/* MEDIAAAAAAAAAAAAAAAAAAA QUERYYYYY QUI SOTTO */
+
+  @media (max-width: 768px) {
+
+    
+    .close
+    {
+        display: block;
+        float: right;
+        padding: 10x;
+
+    }
+
+
+
+    .menu {
+
+        background-color: #7b6f67;
+        padding: 10px;
+        display: none;
+        position: absolute;
+        width: 75%;
+        top: 1px;
+        left: -2px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 500;
+        height: 90%;
+        z-index: 1;
+    }
+
+
+    .menu-icon{
+      
+        width: 12%;
+        display: block;
+        align-self: flex-end;
+    }
+
+    .menu-container:hover .menu{
+        display: block;
+      }
+      
+    .menu-container{
+        flex-direction: column;
+    }
+
+  
+  
+    .menu li {
+        margin-left: 10px;
+      margin-bottom: 70px;
+    }
+
+    .menu-container:hover .menu-list {
+      display: block; 
+    }
+
+
+  }
+
+
+  

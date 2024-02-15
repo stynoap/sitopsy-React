@@ -1,0 +1,20 @@
+.i-miei-contatti{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+
+.i-miei-contatti *{
+    margin-bottom: 10px;
+}
+
+i{
+    margin-left: 14px;
+    position: relative;
+    top: -11px;
+}
