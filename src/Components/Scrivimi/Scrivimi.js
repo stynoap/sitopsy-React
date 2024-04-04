@@ -15,7 +15,7 @@ const Scrivimi = () => {
 
 
   // Gestisci il cambiamento nei campi del form
-  const handleChange = async (e) => {
+  const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -23,7 +23,7 @@ const Scrivimi = () => {
     });
 
     try {
-      const response = await fetch('/', {
+      const response = fetch('/', {
         method: 'GET',
       });
 
