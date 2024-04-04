@@ -23,7 +23,7 @@ const Scrivimi = () => {
     });
 
     try {
-      const response = fetch(Proxy+'/api/send-email', {
+      const response = fetch("https://server-sitogiuliapinna-3b6454d0d4d1.herokuapp.com:3002/api/send-email", {
         method: 'GET',
       });
 
@@ -50,7 +50,7 @@ const Scrivimi = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch(Proxy+'/api/send-email', {
+      const response = await fetch("https://server-sitogiuliapinna-3b6454d0d4d1.herokuapp.com:3002/api/send-email", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
