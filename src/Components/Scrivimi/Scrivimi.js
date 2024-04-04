@@ -29,7 +29,7 @@ const Scrivimi = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://server-sitogiuliapinna-3b6454d0d4d1.herokuapp.com:3002/api/send-email", {
+      const response = await fetch("https://server-sitogiuliapinna-3b6454d0d4d1.herokuapp.com/api/send-email", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
