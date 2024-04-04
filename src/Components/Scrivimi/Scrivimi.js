@@ -22,27 +22,6 @@ const Scrivimi = () => {
       [name]: value,
     });
 
-    try {
-      const response = fetch("https://server-sitogiuliapinna-3b6454d0d4d1.herokuapp.com:3002/api/send-email", {
-        method: 'GET',
-      });
-
-  
-
-      if (response.ok) {
-        console.log('ciaooooo get ok');
-
-
-      } else {
-        
-        console.error('bad get'+ response.message);
-
-      }
-    } catch (error) {
-      
-      console.error('bad bad get');
-    }
-
   };
 
   // Gestisci l'invio del form
