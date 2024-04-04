@@ -23,7 +23,7 @@ const Scrivimi = () => {
     });
 
     try {
-      const response = fetch('/', {
+      const response = fetch('/api/send-email', {
         method: 'GET',
       });
 
