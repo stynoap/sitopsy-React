@@ -15,12 +15,34 @@ const Scrivimi = () => {
 
 
   // Gestisci il cambiamento nei campi del form
-  const handleChange = (e) => {
+  const handleChange = async (e) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
       [name]: value,
     });
+
+    try {
+      const response = await fetch('/', {
+        method: 'GET',
+      });
+
+  
+
+      if (response.ok) {
+        console.log('ciaooooo get ok');
+
+
+      } else {
+        
+        console.error('bad get');
+
+      }
+    } catch (error) {
+      
+      console.error('bad bad get');
+    }
+
   };
 
   // Gestisci l'invio del form
