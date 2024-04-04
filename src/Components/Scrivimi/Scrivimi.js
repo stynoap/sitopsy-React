@@ -35,7 +35,7 @@ const Scrivimi = () => {
 
       } else {
         
-        console.error('bad get');
+        console.error('bad get'+ response.message);
 
       }
     } catch (error) {
