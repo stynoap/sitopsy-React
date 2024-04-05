@@ -32,8 +32,8 @@ const About = () => {
                     <br/>
                     <br/>
 
-                    Attualmente sono psicologa presso la USL Umbria 1, dove sto svolgendo il tirocinio in specializzazione in psicoterapia, occupandomi di sostegno psicologico
-                    con adolescenti e giovani adulti fino ai 30 anni, all'interno del progetto di sostegno psicologico "Ottavo Segno", finalizzato alla prevenzione della salute mentale dei giovani.
+                    <i>Attualmente sono psicologa presso la USL Umbria 1, dove sto svolgendo il tirocinio in specializzazione in psicoterapia, occupandomi di sostegno psicologico
+                    con adolescenti e giovani adulti fino ai 30 anni, all'interno del progetto di sostegno psicologico "Ottavo Segno", finalizzato alla prevenzione della salute mentale dei giovani.</i>
                 </p>
                 </p>
 
