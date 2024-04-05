@@ -28,6 +28,12 @@ const About = () => {
 
                     Se valuterai di iniziare questo "viaggio" con me, stabiliremo gli obiettivi di questo percorso e ci muoveremo insieme
                     al fine di raggiungerli.
+
+                    <br/>
+                    <br/>
+
+                    Attualmente sono psicologa presso la USL Umbria 1, dove sto svolgendo il tirocinio in specializzazione in psicoterapia, occupandomi di sostegno psicologico
+                    con adolescenti e giovani adulti fino ai 30 anni, all'interno del progetto di sostegno psicologico "Ottavo Segno", finalizzato alla prevenzione della salute mentale dei giovani.
                 </p>
                 </p>
 
