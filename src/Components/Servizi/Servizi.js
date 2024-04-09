@@ -16,7 +16,7 @@ const Servizi = () => {
                     {/* <li>Conduco gruppi di terapia</li> */}
                 </ul>
 
-                <p>Il colloquio psicologico ha una durata di circa 60 minuti ed il costo è di 40€. La prima seduta è gratuita.</p>
+                <p>Il colloquio psicologico ha una durata di circa 60 minuti ed il costo è di 40€.</p>
             </div>
 
         </section>
