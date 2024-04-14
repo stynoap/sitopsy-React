@@ -17,9 +17,14 @@
 }
 .descrizione li{
     letter-spacing: 2px;
+    font-size: 22px;
     font-weight:300;
     margin-bottom: 10px;
-    background-color: #eee5de;
+    /* background-color: #eee5de; */
+    /* background-color: #e9dbf7; */
+    background-color: #efe7f8;
+    background-color: #e1f3e8;
+    background-color: #eae8f3;
     padding: 15px;
     border-radius: 0 0 10px 0;
 }

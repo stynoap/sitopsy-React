@@ -20,7 +20,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #463f3a;
+    /* background-color: #463f3a; */
+    background-color: #384630;
+    background-color: #615f81;
     color: #f4f3ee;
     padding: 20px;
   }
