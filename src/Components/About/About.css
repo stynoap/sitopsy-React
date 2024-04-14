@@ -70,16 +70,18 @@ h2{
   }
   
   .scrivimi:hover {
-    background-color: #f3e5da; 
-    border: 1.3px solid #463f3a;
+    background-color: #ecebee;
+    color: #8c83b0;
+    border: 1.3px solid #8c83b0;;
+    letter-spacing: 3.7px;
   }
   .scrivimi:hover > .bottone-contatti-about {
-    color: #463f3a;
+    color:  #8c83b0;;
     letter-spacing: 3.7px;
 }
 
 .bottone-contatti-about:hover{
-  color: #463f3a;
+  color: #8c83b0;;
 }
 
 

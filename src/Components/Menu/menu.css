@@ -1,6 +1,9 @@
 /* Stili per il contenitore del menu */
 .menu{
     font-size: medium;
+    font-variant-caps: all-small-caps;
+    font-size: 27px;
+    letter-spacing: 4px;
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -8,8 +11,6 @@
     padding: 0; /* Rimuovi il padding predefinito */
     margin: 0; /* Rimuovi il margin predefinito */
     font-weight: 300;
-    letter-spacing: 2px;
-    text-transform:capitalize;
 
 }
   
@@ -53,7 +54,7 @@ a {
 
 /* Stile al passaggio del mouse */
 a:hover {
-  color: #e0afa0 /* Colore al passaggio del mouse */
+  color:  #c4aaf7;/* Colore al passaggio del mouse */
 }
 
 /* Stile al clic */
