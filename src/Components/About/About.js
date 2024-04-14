@@ -15,7 +15,6 @@ const About = () => {
                     Giulia Pinna, classe 1997, psicologa iscritta all'Ordine degli psicologi della Sardegna n° 3799.
                     Attualmente specializzanda in psicoterapia ad indirizzo analitico-archetipico presso l'Istituto Atanor dell'Aquila.
                     <br />
-                    <br />
                     <p className='metodo'>
                     Nel mio lavoro mi pongo l'obiettivo di sostenere chi si rivolge a me accompagnando in un percorso di comprensione
                     di sé e del proprio funzionamento, il quale ci permetterà di comprendere al meglio quali saranno i prossimi passi da compiere
