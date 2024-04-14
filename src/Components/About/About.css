@@ -14,6 +14,7 @@
 }
 
 h2{
+  margin-left: 40px;
   font-size: 40px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -66,7 +67,9 @@ h2{
     letter-spacing: 3px;
     font-weight: 800;
     margin-bottom: 10px;
-    margin-top: -38px;
+    margin-left: 108px;
+    margin-top: -60px;
+    align-self: flex-start;
   }
   
   .scrivimi:hover {
@@ -113,8 +116,15 @@ h2{
     }
 
     .scrivimi{
+      align-self: center;
+      margin-top: 0;
+      margin-left: 0;
       letter-spacing: 2;
       width: 50%;
 
+    }
+
+    h2{
+      margin-left: 0px;
     }
   }
