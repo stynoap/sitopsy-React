@@ -88,7 +88,7 @@ h2{
 @media (max-width: 768px) {
     /* Adatta le dimensioni dell'immagine per schermi più piccoli */
     .immagine-profilo {
-      width: 230px; /* Occupa tutta la larghezza del contenitore */
+      width: 210px; /* Occupa tutta la larghezza del contenitore */
       height: 185px; /* Adatta l'altezza proporzionalmente alla larghezza */
       border-radius:120%;
       margin-right: 15px;
