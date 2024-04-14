@@ -46,9 +46,9 @@ const Menu = () => {
           <li>
             <a href="#Contatti">Contatti</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#Blog">Blog</a>
-          </li>
+          </li> */}
         </ul>
       )}
     </div>
