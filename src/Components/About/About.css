@@ -14,7 +14,7 @@
 }
 
 h2{
-  margin-left: 40px;
+  
   font-size: 40px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -22,6 +22,10 @@ h2{
     color: #7fa085;
     color: #ada5ca;
     letter-spacing: 2px;
+}
+
+#about h2{
+  margin-left: 40px;
 }
 
 .sez-chi-sono{
