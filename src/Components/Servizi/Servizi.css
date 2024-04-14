@@ -5,7 +5,7 @@
 }
 
 .descrizione{
-
+font-size: 17px;
     line-height: 1.7;
     letter-spacing: 1px;
     text-align: justify;
@@ -17,7 +17,7 @@
 }
 .descrizione li{
     letter-spacing: 2px;
-    font-size: 22px;
+    font-size: 19px;
     font-weight:300;
     margin-bottom: 10px;
     /* background-color: #eee5de; */
