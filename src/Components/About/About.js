@@ -17,18 +17,15 @@ const About = () => {
                     <br />
                     <p className='metodo'>
                     Nel mio lavoro mi pongo l'obiettivo di sostenere chi si rivolge a me accompagnando in un percorso di comprensione
-                    di sé e del proprio funzionamento, il quale ci permetterà di comprendere al meglio quali saranno i prossimi passi da compiere
-                    rispetto alla specifica situazione.
-                    Per me è centrale nel percorso il fattore umano e la soggettività della persona che
-                    si rivolge a me, con le sue specificità.
-                    Considero il lavoro che svolgo assieme alle persone un processo di conoscenza e sviluppo di fiducia e alleanza, 
+                    di sé e del proprio funzionamento.
+                    Sintomi ed esperienze psichiche saranno preziosi alleati nel percorso,
+                    considerandoli come messaggi che la nostra psiche ci manda e che quindi cercheremo assieme di 
+                    riconoscere e ascoltare, restituendo loro uno spazio, un significato e un valore. 
+                    Il lavoro che svolgeremo è per me un processo di conoscenza e sviluppo di fiducia e alleanza, 
                     elementi che reputo basilari per poter aver accesso a parti di sé talvolta tenute più in ombra di altre.
 
                     Se valuterai di iniziare questo "viaggio" con me, stabiliremo gli obiettivi di questo percorso e ci muoveremo insieme
                     al fine di raggiungerli.
-
-                    <br/>
-                    <br/>
 
                     {/* <i>Attualmente sono psicologa presso la USL Umbria 1, dove sto svolgendo 
                         il tirocinio in specializzazione in psicoterapia, occupandomi di sostegno psicologico
