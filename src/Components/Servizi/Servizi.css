@@ -5,13 +5,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #faf9ff;
+    padding: 50px;
+    border-bottom: 0.5px solid #615F81;
     /* font-variant: small-caps; */
     
 }
 
 
 .icona{
-    border: 3px solid #615F81;
+    border: 1px solid #615F81;
+    background-color: #F1F1F1;
     border-radius: 50%;
     padding: 30px;
 }

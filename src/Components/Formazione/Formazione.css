@@ -2,24 +2,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 
 .descrizione{
-    margin-top: 30px;
+
     list-style-type: none;
     line-height: 1.7;
     letter-spacing: 1px;
     text-align: justify;
-    margin-right: 20px;
+    /* margin-right: 20px; */
+    margin-top: 30px;
 }
 
 .descrizione li{
-    margin-bottom: 10px;
+    border-bottom: 1px solid #615F81;
+    color: #3f3e54;
+    color: #615F81;
+    margin-bottom: 50px;
     letter-spacing: 2px;
     font-size: 19px;
-    font-weight:300;
+    font-weight:600;
     margin-bottom: 10px;
     background-color: #eae8f3;
+    background-color: #FAF9FF;
     padding: 15px;
     border-radius: 0 0 10px 0;
 }
