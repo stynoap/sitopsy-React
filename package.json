@@ -54,6 +54,8 @@
   "devDependencies": {
     "concurrently": "^8.2.2"
   },
+ 
+
   "proxy": {
     "/api/*": {
       "target": "https://server-sitogiuliapinna-3b6454d0d4d1.herokuapp.com",
@@ -61,4 +63,7 @@
       "changeOrigin": true
     }
   }
+  
 }
+
+

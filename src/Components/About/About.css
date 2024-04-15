@@ -15,11 +15,11 @@
 
 
 #titolo-about{
-  margin-left: 218px;
+  margin-left: 60px;
 }
 
 .sez-chi-sono {
-  margin-top: 40px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,6 +96,10 @@
 
 @media (max-width: 768px) {
 
+  #titolo-about{
+    margin-left: 0px;
+  }
+
   /* Adatta le dimensioni dell'immagine per schermi più piccoli */
   .immagine-profilo {
     width: 200px;
@@ -110,7 +114,7 @@
   }
 
   .sez-chi-sono {
-    margin-top: 0px;
+    margin-top: 50px;
   }
 
   .descrizione {
