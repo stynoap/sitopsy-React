@@ -5,13 +5,13 @@
     width: 90px;
     height: 90px;
     margin-right: 10px;
-    margin-top: 23px;
+    margin-top: 0px;
     margin-left: 22px;
 }
 
 .header
 {
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;

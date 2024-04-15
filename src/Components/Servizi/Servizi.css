@@ -29,12 +29,3 @@ font-size: 17px;
 .elenco-servizi{
     list-style-type: none;
 }
-.descrizione li{
-    letter-spacing: 2px;
-    font-size: 19px;
-    font-weight:300;
-    margin-bottom: 10px;
-    background-color: #eae8f3;
-    padding: 15px;
-    border-radius: 0 0 10px 0;
-}

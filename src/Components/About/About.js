@@ -8,7 +8,7 @@ const About = () => {
 
     return (
         <section className='sez-chi-sono' id='About'>
-            <h2>Chi sono</h2>
+            <h2 id='titolo-about'>Chi sono</h2>
             <div className='presentazione'>
                 <div id="call-to-action">
                     <div className='immagine-profilo'></div>
