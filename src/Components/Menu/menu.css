@@ -46,7 +46,7 @@
   }
 
   /* Stile normale del link */
-a {
+.menu a {
   text-decoration: none; /* Rimuove il sottolineato */
   color: #f4f3ee; /* Colore normale */
   transition: color 0.3s; /* Transizione del colore durante il passaggio del mouse */

@@ -13,3 +13,18 @@ hr {
     border: 1px solid #ccc; /* Colore e stile del bordo della linea di divisione */
     margin: 20px auto; /* Margine superiore e inferiore 20px, e margin:auto per centrare orizzontalmente */
   }
+
+section{
+    margin-top: 100px;
+}
+
+
+section h2{
+  
+    font-size: 40px;
+      text-transform: uppercase;
+      color: #C6A590;
+      color: #7fa085;
+      color: #ada5ca;
+      letter-spacing: 2px;
+  }

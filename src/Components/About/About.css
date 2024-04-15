@@ -1,134 +1,139 @@
-.immagine-profilo{
-    width: 400px;
-    height: 400px;
-    margin-right: 100px;
-    margin-left: 8px;
-    margin-top: 12px;
-    align-self: flex-start;
-    /* border-radius: 50%; */
-    background-image: url('./../../../public/pinna-psicologa-foto.JPG');
-    background-size: cover;
-    background-position:top;
-    background-repeat: no-repeat;
+.immagine-profilo {
+  width: 400px;
+  height: 400px;
+  margin-right: 100px;
+  margin-left: 8px;
+  margin-top: 40px;
+  align-self: flex-start;
+  /* border-radius: 50%; */
+  background-image: url('./../../../public/pinna-psicologa-foto.JPG');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 
 }
 
-h2{
-  
-  font-size: 40px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    color: #C6A590;
-    color: #7fa085;
-    color: #ada5ca;
-    letter-spacing: 2px;
-}
-
+/* 
 #about h2{
   margin-left: 40px;
+} */
+
+.sez-chi-sono {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
-.sez-chi-sono{
-    margin-top: -110px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.presentazione{
-    display: flex;
+.presentazione {
+  display: flex;
   flex-direction: row;
   justify-content: center;
   line-height: 1.7;
   letter-spacing: 10px;
   font-size: 19px;
   text-align: justify;
+  margin-top: 40px;
 }
 
-.descrizione{
-    width: 50%;
-    align-self: center;
-    letter-spacing: 7px;
+.descrizione {
+  width: 50%;
+  align-self: center;
+  letter-spacing: 7px;
 }
 
-.metodo{
+.metodo {
   font-weight: 100;
 }
 
-
-.scrivimi {
-    background-color: #8c83b0;
-    padding: 10px 20px;
-    font-size:large;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
-    /* letter-spacing: 5px; */
-    text-transform: uppercase;
-    width: 25%;
-    letter-spacing: 3px;
-    font-weight: 800;
-    margin-bottom: 10px;
-    margin-left: 108px;
-    margin-top: -30px;
-    align-self: flex-start;
-  }
-  
-  .scrivimi:hover {
-    background-color: #ecebee;
-    color: #8c83b0;
-    border: 1.3px solid #8c83b0;;
-    letter-spacing: 3.7px;
-  }
-  .scrivimi:hover > .bottone-contatti-about {
-    color:  #8c83b0;;
-    letter-spacing: 3.7px;
+#call-to-action{
+  display: flex;
+  flex-direction: column;
 }
 
-.bottone-contatti-about:hover{
-  color: #8c83b0;;
+#scrivimi {
+  margin-top: 30px;
+  background-color: #8c83b0;
+  padding: 10px 30px;
+  font-size: large;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  width:79%;
+  letter-spacing: 3px;
+  margin-left: 8px;
+  font-weight: 800;
+
+
+}
+
+
+#scrivimi:hover {
+  background-color: #ecebee;
+  color: #8c83b0;
+  border: 1.3px solid #8c83b0;
+  ;
+  letter-spacing: 3.7px;
+}
+
+#scrivimi:hover>.bottone-contatti-about {
+  color: #8c83b0;
+  ;
+  letter-spacing: 3.7px;
+}
+
+.bottone-contatti-about {
+  text-decoration: none;
+  color: #ecebee;
+}
+
+.bottone-contatti-about:hover {
+  color: #8c83b0;
 }
 
 
 @media (max-width: 768px) {
-    /* Adatta le dimensioni dell'immagine per schermi più piccoli */
-    .immagine-profilo {
-      width: 200px; /* Occupa tutta la larghezza del contenitore */
-      height: 185px; /* Adatta l'altezza proporzionalmente alla larghezza */
-      border-radius:120%;
-      margin-right: 15px;
-      align-self: center;
-      margin-top: 30px;
-      margin-bottom: 20px;
-    }
 
-    .sez-chi-sono{
-      margin-top: 0px;
-    }
-
-    .descrizione{
-        width: 90%;
-
-    }
-
-    .presentazione{
-        flex-direction: column;
-        align-items: center;
-       
-    }
-
-    .scrivimi{
-      align-self: center;
-      margin-top: 0;
-      margin-left: 0;
-      letter-spacing: 2;
-      width: 50%;
-
-    }
-
-    h2{
-      margin-left: 0px;
-    }
+  /* Adatta le dimensioni dell'immagine per schermi più piccoli */
+  .immagine-profilo {
+    width: 200px;
+    /* Occupa tutta la larghezza del contenitore */
+    height: 185px;
+    /* Adatta l'altezza proporzionalmente alla larghezza */
+    border-radius: 120%;
+    margin-right: 15px;
+    align-self: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
+
+  .sez-chi-sono {
+    margin-top: 0px;
+  }
+
+  .descrizione {
+    width: 90%;
+
+  }
+
+  .presentazione {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  #scrivimi {
+    align-self: center;
+    margin-top: 10px;
+    margin-left: 0;
+    letter-spacing: 2;
+    width: 100%;
+
+  }
+
+  h2 {
+    margin-left: 0px;
+  }
+}

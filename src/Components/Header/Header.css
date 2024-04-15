@@ -6,7 +6,7 @@
     height: 90px;
     margin-right: 10px;
     margin-top: 23px;
-    margin-left: 92px;
+    margin-left: 22px;
 }
 
 .header
@@ -30,7 +30,7 @@
     /* border: 1px solid black; */
     text-align: center;
     position: relative;
-    top: -30px;
+    top: -10px;
 }
 
 div h1{

@@ -6,7 +6,7 @@ import { FaPhone, FaEnvelope } from 'react-icons/fa';
 const Contatti = () => {
     return (
         <section className='i-miei-contatti' id='Contatti'>
-            <h2>Contattami</h2>
+            <h2 id='titolo-contattami'>Contattami</h2>
             <p className='cellulare'>
                 <FaPhone />
                 <i>

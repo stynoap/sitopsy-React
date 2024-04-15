@@ -35,13 +35,13 @@ function App() {
         <Menu></Menu>
         <Header></Header>
         <About></About>
-        <hr></hr>
-        <Formazione></Formazione>
-        <hr></hr>
         <Servizi></Servizi>
-        <hr></hr>
+        <Formazione></Formazione>
+    
+    
+   
         <Contatti></Contatti>
-        <hr></hr>
+    
         <Scrivimi></Scrivimi>
         <Footer></Footer>
       </div>
